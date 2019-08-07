@@ -1,18 +1,560 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>C:/Users/ubuntu/Documents/Gridea/output</id>
+    <id>http://geeklaw.github.io/</id>
     <title>无名的裘德</title>
-    <updated>2019-08-07T08:57:00.345Z</updated>
+    <updated>2019-08-07T13:00:56.884Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="C:/Users/ubuntu/Documents/Gridea/output"/>
-    <link rel="self" href="C:/Users/ubuntu/Documents/Gridea/output/atom.xml"/>
-    <logo>C:/Users/ubuntu/Documents/Gridea/output/images/avatar.png</logo>
-    <icon>C:/Users/ubuntu/Documents/Gridea/output/favicon.ico</icon>
+    <link rel="alternate" href="http://geeklaw.github.io/"/>
+    <link rel="self" href="http://geeklaw.github.io//atom.xml"/>
+    <logo>http://geeklaw.github.io//images/avatar.png</logo>
+    <icon>http://geeklaw.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, 无名的裘德</rights>
     <entry>
+        <title type="html"><![CDATA[Awesome-Windows-丨详细篇]]></title>
+        <id>http://geeklaw.github.io//post/oCz2nYLDq</id>
+        <link href="http://geeklaw.github.io//post/oCz2nYLDq">
+        </link>
+        <updated>2019-08-07T08:57:23.000Z</updated>
+        <content type="html"><![CDATA[<p>本文写给使用Windows系统的律师，不足之处欢迎大家补充，有部分软件比如Workflowy、OneNote、Quicker等我会今后写一篇文章进行介绍。有时间在聊聊Mac。利用业余时间，断断续续写了两个星期，就没有单独整理各个软件的下载地址，大家依据软件名称自行搜索下即可。<br>
+<a name="c7ab44fd"></a></p>
+<h3 id="workflowy">WorkFlowy</h3>
+<ul>
+<li>软件性质：免费</li>
+<li>同类软件：幕布</li>
+</ul>
+<p>WorkFlowy 是一款大纲笔记工具，官网给它的定义是<code>Organize your brain</code>，但我很喜欢Workflowy页面的这句话<code>Make Lists， Not War</code>（宁可制造大量的列表，也不要制造战争）。我之前是一个不喜欢收集信息的人，平时喜欢通过关键词去记忆，用到的时候通过检索来获得信息，不存在任何的知识储备。但是做律师久了发现自己总是会忘事，偶尔心中有一些琐碎的观点，真正写的时候却不知道如何下笔。后来使用workflowy来整理自己琐碎的思维。<br /><strong>法律之端</strong>公众号大部分文章的初稿都在workflowy上完成的。撰写流程都是通过在Workflowy 撰写文章提纲，之后在提纲项下补充要点，在进行要点扩容。下图是计划写的一系列文章，在最开始的时候我只是有一个概括的标题，内容都是平时零散的添加。<br /><a href="https://imgchr.com/i/ABym9J"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140019-d63ac129-6fb6-4c13-962f-675edb1a21f0.gif#align=left&amp;display=inline&amp;height=606&amp;originHeight=1396&amp;originWidth=1718&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br />Workflowy对我的意义不仅是记录生活日常、收藏网址、做庭前准备资料、庭审质证意见、庭审笔录速记等事项，更为重要的是让我生活养成了记录的习惯。<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216138937-ce1837b7-6e3f-4e64-a93c-40dedd479d66.png#align=left&amp;display=inline&amp;height=469&amp;originHeight=1720&amp;originWidth=2736&amp;size=0&amp;status=done&amp;width=746" alt=""><br />有时翻看法条的时候，总是难以回避法条之间的内部关联，比如我们看到民诉法解释第九十八条<code>当事人根据民事诉讼法第八十一条第一款规定申请证据保全的</code>，但像我这种对法条不太熟悉的律师，只能跑回去重新翻看民诉法第八十一条是如何规定的。于是我拿workflowy制作了一个专属自己的的民诉法条汇编。将民诉法与民诉解释相关法条进行关联，还包括执行相关的部分规定等。并自定义了一些常用关键词：一审、执行异议等等，以便在实务中快速的找到法条。<br /><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140156-68c78c61-0663-4ba0-918f-641157756a45.gif#align=left&amp;display=inline&amp;height=488&amp;originHeight=1388&amp;originWidth=2122&amp;size=0&amp;status=done&amp;width=746" alt=""><br>
+<a name="Everything"></a></p>
+<h3 id="everything">Everything</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>Everything可以快速检索你文件中任意文本。同时，支持文件类型检索及布尔值检索等多种检索方式，能够让您快捷的找到你的目标文件。</p>
+<ul>
+<li>关键词 空格表示文档必须包括这几个字</li>
+<li>通过 <code>|</code> 来代表或</li>
+<li>同时可以使用<code>pic:</code> 来搜索之前的图片，<code>doc：</code>搜索文本等等</li>
+<li>通配符搜索<code>*.pdf</code>在配以关键词关键词命名的文档</li>
+</ul>
+<p><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216138763-08575a03-586c-4820-90dc-b279671b7051.png#align=left&amp;display=inline&amp;height=626&amp;originHeight=1473&amp;originWidth=1756&amp;size=0&amp;status=done&amp;width=746" alt=""><br>
+<a name="992b0d98"></a></p>
+<h3 id="listary-pro">listary pro</h3>
+<ul>
+<li>软件性质：收费</li>
+<li>同类软件：wox，utools（均免费）</li>
+</ul>
+<p>listary pro 是everything的增强工具，支持软件的首字母检索，可以快速的打开应用。同时，搭配everything等软件，可以打造属于自己的本地检索工具。<br />listary pro支持拼音检索，比如打开腾讯微云这个软件，只需要输入<code>weiyun</code>的首字母<code>wy</code>即可。<br /><a href="https://imgchr.com/i/ArN8Qf"><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140620-a01451fc-66f7-403b-a3be-bcaf606b38b6.png#align=left&amp;display=inline&amp;height=661&amp;originHeight=872&amp;originWidth=984&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br />平时我们想使用威科先行搜索民诉法可能需要：</p>
+<ul>
+<li>打开浏览器</li>
+<li>输入威科先行网址</li>
+<li>输入文件内容，回车搜索</li>
+</ul>
+<p>但是通过listary，只需要输入<code>wk 关键词</code>即可快速打开威科先行检索页面：<br /><a href="https://imgchr.com/i/ADMImt"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140696-2ff4c455-48d6-4344-a592-cd33885869c0.gif#align=left&amp;display=inline&amp;height=380&amp;originHeight=932&amp;originWidth=1831&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br />设置方法：<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216139035-29d870db-4e54-4b2a-af37-9d3662b1e4bc.png#align=left&amp;display=inline&amp;height=666&amp;originHeight=1404&amp;originWidth=1572&amp;size=0&amp;status=done&amp;width=746" alt=""><br />除此之外，可以设置知乎、微信搜狗等垂直搜索引擎：</p>
+<pre><code>威科先行：https://law.wkinfo.com.cn/legislation/list?q={query}
+知乎：https://www.zhihu.com/search?q={query}
+微信搜狗搜索：http://weixin.sogou.com/weixin?type=2&amp;query={query}
+</code></pre>
+<p>也可以设置对当前目录进行搜索：<br /><a href="https://imgchr.com/i/ADlOLn"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140075-6a43b218-1f8b-40a7-875f-4c94c2295eea.gif#align=left&amp;display=inline&amp;height=587&amp;originHeight=1376&amp;originWidth=1748&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br />设置方法为：<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140196-4e94ed72-f18a-4d9a-b42d-6d8b0ffdaf16.png#align=left&amp;display=inline&amp;height=666&amp;originHeight=1404&amp;originWidth=1572&amp;size=0&amp;status=done&amp;width=746" alt=""><br />参数为:</p>
+<pre><code>-s &quot; &quot;&quot;&quot;%path%&quot;&quot;&quot; {query} &quot;
+</code></pre>
+<p><a name="Quicker"></a></p>
+<h3 id="quicker">Quicker</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>Quicker 提供了随时可以激活的快捷面板。使我们在不同的程序下设计不同的动作。<br />但Quicker最强大的功能是可以自定义动作，比如当我们想从PC发送一份文件到微信文件助手，我们只需要一步就可以完成：<br /><a href="https://imgchr.com/i/AsYjoj"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140318-8e1df8b3-e77b-46ce-b9fc-936cc7a24414.gif#align=left&amp;display=inline&amp;height=537&amp;originHeight=1678&amp;originWidth=2332&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br />还可以在浏览网页的时候，选中文字进行搜索：<br /><a href="https://imgchr.com/i/AstOc6"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140116-29251a40-4753-415e-a1d7-9f9f7c4f3f67.gif#align=left&amp;display=inline&amp;height=469&amp;originHeight=1109&amp;originWidth=1765&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br />Quicker可以根据不同的应用程序设置不同的快捷动作，同时提供了共享库，使用的时候直接拖过来即可。<br /><a href="https://imgchr.com/i/AsNuNj"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140604-3f2c69c0-81b3-4eb2-be6a-482c6c8e6d88.gif#align=left&amp;display=inline&amp;height=467&amp;originHeight=1197&amp;originWidth=1913&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br />当然还可以进行word规范排版：<a href="https://imgchr.com/i/Asd42R"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140273-d770d158-4520-45aa-beab-f1e23122af2a.gif#align=left&amp;display=inline&amp;height=499&amp;originHeight=967&amp;originWidth=1445&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br>
+<a name="41e382f5"></a></p>
+<h3 id="天若文字识别工具">天若文字识别工具</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>OCR 文字识别是律师在阅卷和查阅扫描版PDF 的时候最需要的一个功能。但有的时候我们不需要 abbyy 等大块头的软件。天若文字识别就很好解决了这项需求。<br /><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216141027-1b19f063-44ce-4569-b1cf-be65f126545f.gif#align=left&amp;display=inline&amp;height=539&amp;originHeight=632&amp;originWidth=874&amp;size=0&amp;status=done&amp;width=746" alt="">来源：天若ocr官方<br />除此之外，该款软件还支持翻译等功能。<br>
+<a name="c0d0371d"></a></p>
+<h3 id="office-365">office 365</h3>
+<ul>
+<li>软件性质：收费</li>
+</ul>
+<p>office 365 不同于office2019，有以下优点：</p>
+<ul>
+<li>1TB的个人云存储</li>
+<li>跨平台支持，每个账号支持5个设备，不仅支持PC，ios、安卓等手机设备也可以编辑和word。</li>
+<li>可以在线协作编辑。</li>
+</ul>
+<p>笔者最喜欢的功能是自动保存，之前在写一个文档的时候，会有多个版本。为方便记忆会以时间命名的方式对文件予以区分。久而久之文件很多文件版本堆积在一个文件夹内。 office 365提供了文档自动保存的功能，据微软所述是按照秒为单位进行保存的。这个是笔者撰写合同的一个历史版本记录：<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140340-92876959-e0fb-4eab-bd45-22b8755afb82.png#align=left&amp;display=inline&amp;height=502&amp;originHeight=1381&amp;originWidth=2052&amp;size=0&amp;status=done&amp;width=746" alt=""></p>
+<p>同时，不同的版本文件可以进行对比，对修改的所有地方进行提示。</p>
+<p><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140177-bf5b9717-0e3f-44dc-ab14-ff58f2b7a68b.png#align=left&amp;display=inline&amp;height=502&amp;originHeight=1374&amp;originWidth=2041&amp;size=0&amp;status=done&amp;width=746" alt=""><br>
+<a name="1fd8fae4"></a></p>
+<h3 id="石墨文档">石墨文档</h3>
+<ul>
+<li>软件性质：免费</li>
+<li>同类软件：语雀、腾讯文档</li>
+</ul>
+<p>石墨文档是一款简单的在线文档工具，可以满足office的基本功能，之所以使用石墨是为了解决有时在有些同事的电脑临时写一些文件或者一些文档的在线分享。个人一直认为云协作是律师未来工作的一种方式。<br>
+<a name="TranslucentTB"></a></p>
+<h3 id="translucenttb">TranslucentTB</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>微软在windows 10系统取消了aero特效功能，在日常使用的时候任务栏存在黑边，笔者这样的强迫症是分分钟无法容忍的。而TranslucentTB 解决了这一问题，而且有绿色版本，占用系统资源也极低。</p>
+<p><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216138858-af82658a-13ee-4421-b734-0e02538fd380.png#align=left&amp;display=inline&amp;height=22&amp;originHeight=80&amp;originWidth=2736&amp;size=0&amp;status=done&amp;width=746" alt="">使用前<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216138734-d2dfe047-212a-408f-8c0c-8bc728429c0d.png#align=left&amp;display=inline&amp;height=20&amp;originHeight=75&amp;originWidth=2736&amp;size=0&amp;status=done&amp;width=746" alt="">使用后<br>
+<a name="ditto"></a></p>
+<h3 id="ditto">ditto</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>ditto是一款剪贴板的工具，可以保存你复制过的所有文本。不但支持搜索，而且可以在复制文本的时候对文本进行处理。</p>
+<p><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140164-e2ad6680-2a1a-4046-935e-ae5ec5599b7f.gif#align=left&amp;display=inline&amp;height=566&amp;originHeight=1200&amp;originWidth=1582&amp;size=0&amp;status=done&amp;width=746" alt="">支持粘贴板搜索<br>
+<a name="f02be8c2"></a></p>
+<h3 id="idm-下载工具">IDM 下载工具</h3>
+<ul>
+<li>软件性质：收费</li>
+<li>同类软件：Motrix 免费</li>
+</ul>
+<p>Windows的下载工具我用了很多，但是客观上没有哪款工具能够做到向IDM那样高速下载的。更为重要的是搭配IDM的插件可以下载百度网盘的文件。<br />而 Motrix 是一款清爽开源的免费下载工具，采用了Aria 2为核心，支持 HTTP、FTP、BT、磁力链接和百度网盘的下载。</p>
+<p><a href="https://imgchr.com/i/ADJ8gS"><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140182-a428f4d6-2dad-450d-bb10-50b63a7eaf77.png#align=left&amp;display=inline&amp;height=595&amp;originHeight=1636&amp;originWidth=2052&amp;size=0&amp;status=done&amp;width=746" alt=""></a>Motrix安装百度网盘插件</p>
+<p><a name="35989c89"></a></p>
+<h3 id="字体替换">字体替换</h3>
+<p>Windows为了兼容老旧设备而作出了一些牺牲，因此在电脑字体的渲染没有Mac os的清晰。可以参考这篇文章进行修改字体。</p>
+<pre><code>不输 MacType，这些优化思路也能让 Windows 字体细腻清晰 - https://sspai.com/post/52815
+</code></pre>
+<p>使用的软件是noMeiryoUI，将默认的微软雅黑替换成了更纱黑体。<br>
+<a name="9b2be4f4"></a></p>
+<h3 id="手心输入法">手心输入法</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>在这里简单介绍下双拼输入法，双拼输入法其实是键位的重新组合。通过自定义键盘而映射声母和韵母。<br />比如当使用双拼输入法输入「双拼」时，依据自然码的方案：</p>
+<ul>
+<li>按键<code>U</code>，对应声母<code>U</code>，韵母<code>sh</code></li>
+<li>按键<code>D</code>，对应声母<code>D</code>，韵母<code>iang</code>和<code>uang</code></li>
+<li>按键<code>P</code>，对应声母<code>P</code>，韵母<code>un</code></li>
+<li>按键<code>N</code>，对应声母<code>N</code>，韵母<code>in</code></li>
+</ul>
+<p><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216139040-86c4a06d-9311-4f3e-a42c-25127388dd0b.png#align=left&amp;display=inline&amp;height=129&amp;originHeight=129&amp;originWidth=256&amp;size=0&amp;status=done&amp;width=256" alt=""><br />同时，有人将字形引入至输入法，组成了音码和形码结合的输入法，我们常说为辅码。以自然码的双拼方案为例：第一辅码是部首的声母，第二辅码是部首外的声母。比如<strong>辅</strong>这个字，<code>fu</code>为<strong>辅</strong>的双拼或全拼，然后将其拆成 <strong>车</strong> 和<strong>甫</strong>，那么它的辅码就是<code>if</code>，当我们输<code>fuif</code>时候选词诗就上屏显示了。</p>
+<p><a href="https://imgchr.com/i/ArNyOU"><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140144-bd288db0-b8b4-4949-9592-aa727e83f0be.png#align=left&amp;display=inline&amp;height=103&amp;originHeight=103&amp;originWidth=633&amp;size=0&amp;status=done&amp;width=633" alt=""></a></p>
+<p>实际中仅打了第一个辅码<br />windows 自带的输入法虽然支持双拼的，但是不支持辅码。搜狗等输入法需要通过tab键来开启辅码，暂时发现只有手心输入法是支持这种直接辅码模式的。<br>
+<a name="898ae4f8"></a></p>
+<h3 id="markdown-工具">Markdown 工具</h3>
+<p>Markdown 是一种轻量级标记语言，对于笔者来说Markdown 的意义并不是在于取代word，而是让我们敲击键盘时专注于写作本身，忘记排版问题给我们的干扰。<br />MarkDown 生成标题只需要输入<code># 敲击空格 这是一级标题</code>会自动生成一级标题，同理生成二级标题只输入<code>## 敲击空格 这是二级标题</code>即可，最多支持六级标题。</p>
+<pre><code># 这是一级标题
+## 这是二级标题
+### 这是三级标题
+#### 这是四级标题
+这是正文
+</code></pre>
+<p>实际过程中，软件会显示下图所示：<br /><a href="https://imgchr.com/i/Ar6eIK"><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140757-a4cf9980-7177-4f19-a92f-f0a4a3230e14.png#align=left&amp;display=inline&amp;height=404&amp;originHeight=669&amp;originWidth=1235&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br />有序列表的使用只要输入<code>1.</code> 之后敲击空格键。无序列表需要输入<code>*</code>后敲击空格。<strong>两个星号<code>**</code>加起来</strong>表示加粗。_一个星号<code>*</code>_表示斜体。<s>我删除一句话</s>需要输入两个<code>~</code>。<br />但是用了windows后，适用了typora、acrylic Markdown等工具，但都不是很喜欢，现在使用的是vscode。实在是没有找到一款很好的markdown工具。如果大家有欢迎大家给笔者留言。<br /><a href="https://imgchr.com/i/AD0Em8"><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140954-f404b5d2-eb69-4c49-bf8d-de73a5ca8c3a.png#align=left&amp;display=inline&amp;height=497&amp;originHeight=1824&amp;originWidth=2736&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br>
+<a name="Quicklook"></a></p>
+<h3 id="quicklook">Quicklook</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>Mac系统自带了快速预览的功能，只要点击单击空格就可以预览文件，查看文件的内容，节省了大量的时间。QuickLook能够完美的实现该功能，既方便的查找文档，又不用打开文件。<br /><a href="https://imgchr.com/i/AD01XV"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140448-88738384-cdf1-4c74-8a90-c3f79ba82f10.gif#align=left&amp;display=inline&amp;height=388&amp;originHeight=1552&amp;originWidth=2713&amp;size=0&amp;status=done&amp;width=678" alt=""></a><br />注意：在使用 QuickLook 预览office文档的时候需要安装单独的插件。<br>
+<a name="2d79dedb"></a></p>
+<h3 id="pdf阅读器">PDF阅读器</h3>
+<p><a name="xodo"></a></p>
+<h4 id="xodo">xodo</h4>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>xodo的不仅免费，而且支持了日常PDF的绝大部分功能，对触控板支持也很好，可能唯一的缺点是不支持中文。<br>
+<a name="fbdd961b"></a></p>
+<h4 id="adobe-acrobat-reader">Adobe Acrobat Reader</h4>
+<ul>
+<li>软件性质：收费</li>
+</ul>
+<p>虽然有很多免费的PDF阅读器，但是还是使用了官方的Adobe Acrobat Reader ，主要是该软件支持了图片增强功能，可以将扫描版的PDF转化为可搜索的文字版。图为使用图片增强后识别的某扫描版PDF文件。<br /><a href="https://imgchr.com/i/AD0BX6"><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216141034-b9017f72-984e-4a3c-a85b-7d229bf5325c.png#align=left&amp;display=inline&amp;height=456&amp;originHeight=1824&amp;originWidth=2736&amp;size=0&amp;status=done&amp;width=684" alt=""></a><br>
+<a name="OneNote"></a></p>
+<h3 id="onenote">OneNote</h3>
+<ul>
+<li>软件性质：免费</li>
+<li>同类软件：印象笔记、为知笔记、有道云笔记</li>
+</ul>
+<p>其实我之前尝试过多次使用印象笔记、有道云笔记、OneNote、 为知笔记均失败了。后来买了surface开始使用OneNote，正式使用也是不到半年的样子，其实还处于一个学习的过程。现在主要用它来做资料的仓库。这个是我用来学习案例记的笔记：<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216139463-58417876-504c-4bf5-87ce-09f0c11cab8e.png#align=left&amp;display=inline&amp;height=644&amp;originHeight=1614&amp;originWidth=1869&amp;size=0&amp;status=done&amp;width=746" alt=""><br />OneNote 还有一个超级实用的功能就是录音定位。当你录音的时候可以记录你的文字位置。回放时点击文字旁边的小按钮就自动播放音频。特别适合一些会议场景。<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216139164-ec39e0aa-2d2e-4bc0-9fd3-7f8c370bb7ef.png#align=left&amp;display=inline&amp;height=628&amp;originHeight=1824&amp;originWidth=2167&amp;size=0&amp;status=done&amp;width=746" alt=""><br>
+<a name="kodi"></a></p>
+<h3 id="kodi">kodi</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>Surface相对ipad而言，娱乐功能比较少些。但像笔者这个年纪的人，梦想不在轻盈，开始掂量生活，注重果实而非花朵。笔者之前是一个美剧和电影爱好者。现在看的虽然少了，残留的爱好有些，偶尔还是看下。<br />对于影音方面，还是通过kodi连接自己的群晖，而且支持外挂字幕。大部分的作用是朋友来家里的时候炫耀下。<img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216139105-a4e12b86-d321-4250-bd58-ee8b231003c2.png#align=left&amp;display=inline&amp;height=427&amp;originHeight=1706&amp;originWidth=2560&amp;size=0&amp;status=done&amp;width=640" alt=""><br>
+<a name="bdb90cd1"></a></p>
+<h3 id="snipate截图工具">Snipate：截图工具</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>Snipate不同于其他的截图工具，本身拥有强大的贴图和标注功能。在阅读一些文献资料的时候，可以利用贴图功能将文字与图片信息钉在桌面上，能够很好的进行对比。<br /><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216139137-c041732d-00fa-408f-9d07-cae7cea66931.gif#align=left&amp;display=inline&amp;height=263&amp;originHeight=525&amp;originWidth=879&amp;size=0&amp;status=done&amp;width=440" alt=""><br />Snipaste 标注的功能众多，包括马赛克、记号笔、画笔、写字。<br /><a href="https://imgchr.com/i/ArBnw8"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140444-52c4647f-ac3a-4cdc-aca8-3582ee89c2da.gif#align=left&amp;display=inline&amp;height=322&amp;originHeight=644&amp;originWidth=815&amp;size=0&amp;status=done&amp;width=408" alt=""></a></p>
+<p>来源：snipaste官网<br>
+<a name="1845cafb"></a></p>
+<h3 id="autohotkey">AutoHotkey</h3>
+<ul>
+<li>软件性质：免费</li>
+<li>同类软件：capslock+</li>
+</ul>
+<p>Windows 的键盘有两个按键我习惯性的按错：</p>
+<ul>
+<li>windows键</li>
+<li>caps键（大写键）</li>
+</ul>
+<p>而AutoHotkey是一款可以编辑的自动化软件，可以实现热键以及文本替换的功能。</p>
+<pre><code>! 号代表 Alt 键；
+^ 号代表 Ctrl 键；
++ 号代表 shift 键；
+:: 号(两个英文冒号)起分隔作用；
+run，后面接运行程序的完整路径;
+; 号代表 注释后面一行内容；
+</code></pre>
+<p>比如用禁用Caps键，使用<code>alt Caps</code>替代。</p>
+<pre><code>$CapsLock::Enter
+LAlt &amp; Capslock::SetCapsLockState, % GetKeyState(&quot;CapsLock&quot;, &quot;T&quot;) ? &quot;Off&quot; : &quot;On&quot;
+</code></pre>
+<p>也可以进行重复文本的替换</p>
+<pre><code>::/dl::欢迎关注法律之端！
+::/mail::duanlaw@gmail.com
+</code></pre>
+<p><a href="https://imgchr.com/i/ArsSe0"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140232-afdd2953-0bd6-4d37-b318-59736f3d4ffb.gif#align=left&amp;display=inline&amp;height=495&amp;originHeight=990&amp;originWidth=798&amp;size=0&amp;status=done&amp;width=399" alt=""></a><br />注意：中文模式下输入<code>、</code>号同样能够进行替换。<br>
+<a name="iSlide"></a></p>
+<h3 id="islide">iSlide</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>iSlide 是一款ppt插件，提供了丰富的图表、图标，还有一些特殊的功能，比如批量修改文字等等。<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140276-1e7caf54-0874-4a26-a15e-eed75fc60aeb.png#align=left&amp;display=inline&amp;height=497&amp;originHeight=1824&amp;originWidth=2736&amp;size=0&amp;status=done&amp;width=746" alt=""><br>
+<a name="Gesturesign"></a></p>
+<h3 id="gesturesign">Gesturesign</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>GestureSign 是一款开源的 Windows 手势控制软件，支持 Windows 8.1、Windows 10 的 64/32 位电脑。可用触摸屏、触控板、触控笔和鼠标划出手势，方便地执行一些命令，如执行快捷键、发送文本命令、运行程序等等。<br>
+<a name="Imagine"></a></p>
+<h3 id="imagine">Imagine</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>伴随着手机像素的提高，随便拍张照片都将近10几兆的大小，因为电脑自带的存储空间是128G的，为了节省空间，我都会对图片进行压缩处理。使用的图片压缩工具是Imagine。</p>
+<ul>
+<li>支持 PNG 和 JPG</li>
+<li>能实时观察优化结果</li>
+<li>批量处理文件和保存</li>
+</ul>
+<p>以 unsplash 下载的高清图片演示如下：<br /><a href="https://imgchr.com/i/ArsOAK"><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140457-27c53cb2-ba99-472c-9e07-76b5d6b2f01a.png#align=left&amp;display=inline&amp;height=539&amp;originHeight=1189&amp;originWidth=1646&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br>
+<a name="Coldturkey"></a></p>
+<h3 id="coldturkey">Coldturkey</h3>
+<ul>
+<li>软件性质：免费、增值收费</li>
+</ul>
+<p>Coldturkey 是一款全平台的网络管理工具，他可以做到禁止您某一时间访问某一网站（淘宝、知乎、京东等等），只有等您过了设置的时间之后才会正常访问。软件安装后需要在各浏览器上安装相应的插件。当笔者将知乎加入黑名单后，访问知乎就会显示下图的界面。<br /><a href="https://imgchr.com/i/ArdwYd"><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140925-678f0af0-267d-4b99-9e15-47175ca557ce.png#align=left&amp;display=inline&amp;height=497&amp;originHeight=1822&amp;originWidth=2736&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br>
+<a name="Rescuetime"></a></p>
+<h3 id="rescuetime">Rescuetime</h3>
+<ul>
+<li>软件性质：免费、增值收费</li>
+</ul>
+<p>Rescuetime 是一款时间记录软件，能够记录您在某段时间内访问了哪些网站、使用了哪些应用，在相应的平台停留的时间。不仅如此，该软件将时间的记录以可视化图表的方式进行呈现，让您知道时间都去哪了，控制您的时间成本。<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140477-1de7a115-0613-46eb-bad5-352eeb40e727.png#align=left&amp;display=inline&amp;height=354&amp;originHeight=948&amp;originWidth=1998&amp;size=0&amp;status=done&amp;width=746" alt=""><br />当我们想要了解每一项的具体花费时，点开柱状图中的圆柱，就可以看到访问网站 / 软件的时间，及所花费的时间。<br>
+<a name="80c98c1e"></a></p>
+<h3 id="neat-reader">Neat Reader</h3>
+<ul>
+<li>软件性质：收费</li>
+</ul>
+<p>平时偶尔会拿手机看下电子书，因此需要一款跨平台的电子书阅读工具。最终选择了neatreader，在文件浏览还有标记上都可以做到实时同步。<br /><a href="https://imgchr.com/i/Ashbee"><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140434-28ede93f-6ecf-4050-aa2a-978bc0800917.png#align=left&amp;display=inline&amp;height=533&amp;originHeight=1557&amp;originWidth=2178&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br>
+<a name="60677fe8"></a></p>
+<h3 id="total-uninstall">Total uninstall</h3>
+<ul>
+<li>软件性质：收费</li>
+</ul>
+<p>total uninstall可以监控程序的安装移除多余的文件和注册表项目。<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140332-bf09e340-545f-4f75-a2e8-999306a2084b.png#align=left&amp;display=inline&amp;height=555&amp;originHeight=1529&amp;originWidth=2056&amp;size=0&amp;status=done&amp;width=746" alt=""><br>
+<a name="Newsflow"></a></p>
+<h3 id="newsflow">Newsflow</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>Rss 是一个信息聚合的工具，它的目的是将新闻标题，新闻标题、摘要（Feed）、内容按照用户的要求送达给用户。你每天打开rss工具就可以访问平时浏览的网站。但是Rss本身就是一款小众的产品。之所以使用rss，是因为信息太多了，而且很多的信息对我们来说都是无意义的。逐渐感觉自己被信息所吞没。<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216139468-b36a7c75-9047-4ce9-a637-22e737857c3c.png#align=left&amp;display=inline&amp;height=497&amp;originHeight=1706&amp;originWidth=2560&amp;size=0&amp;status=done&amp;width=746" alt=""><br /><br>
+<img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216139468-b36a7c75-9047-4ce9-a637-22e737857c3c.png#align=left&amp;display=inline&amp;height=497&amp;originHeight=1706&amp;originWidth=2560&amp;size=0&amp;status=done&amp;width=746" alt=""><br>
+<a name="e0cc20c6"></a></p>
+<h3 id="latermark-for-pocket">Latermark for Pocket</h3>
+<ul>
+<li>软件性质：免费（有广告）</li>
+</ul>
+<p>Latermark for Pocket 是windows 系统下的一款第三方阅读工具，对于有些需要深读的文章，笔者都会暂存在pocket上面进行二次阅读。虽然有广告，但可以通过付款的方式移除。</p>
+<p><a href="https://imgchr.com/i/Ar0JaD"><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140510-aa001b90-41b8-426f-8688-f17b983ec3e5.png#align=left&amp;display=inline&amp;height=497&amp;originHeight=1822&amp;originWidth=2736&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br>
+<a name="SmartTaskbar"></a></p>
+<h3 id="smarttaskbar">SmartTaskbar</h3>
+<p>SmartTaskbar是一款当窗口最大化的时候可以自动隐藏任务栏的小软件，增大可视面积，在阅读文献和浏览网页的时候非常有用。<br /><a href="https://imgchr.com/i/AySBMF"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140846-5a6709e2-0233-483c-91aa-741974965595.gif#align=left&amp;display=inline&amp;height=560&amp;originHeight=600&amp;originWidth=800&amp;size=0&amp;status=done&amp;width=746" alt=""></a>来源：SmartTaskbar作者<br>
+<a name="5a0afc9d"></a></p>
+<h3 id="其它">其它</h3>
+<p>在软件使用上我一般遵循无广告、无捆绑安装等基本的要求，所以数字公司、腾讯等国内免费的安全软件基本不属于我的考虑范围。因为免费的永远都是最贵的。但是安全软件我还是使用了火绒，主要是使用文件粉碎还有垃圾清理功能。当然你可以使用微软自带的windows defender作为杀毒软件。清理工具建议使用Dism++，压缩工具建议使用bandzip。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Awesome-Windows-丨详细篇]]></title>
+        <id>http://geeklaw.github.io//post/windows_001</id>
+        <link href="http://geeklaw.github.io//post/windows_001">
+        </link>
+        <updated>2019-08-07T08:57:23.000Z</updated>
+        <content type="html"><![CDATA[<p>本文写给使用Windows系统的律师，不足之处欢迎大家补充，有部分软件比如Workflowy、OneNote、Quicker等我会今后写一篇文章进行介绍。有时间在聊聊Mac。利用业余时间，断断续续写了两个星期，就没有单独整理各个软件的下载地址，大家依据软件名称自行搜索下即可。<br>
+<a name="c7ab44fd"></a></p>
+<h3 id="workflowy">WorkFlowy</h3>
+<ul>
+<li>软件性质：免费</li>
+<li>同类软件：幕布</li>
+</ul>
+<p>WorkFlowy 是一款大纲笔记工具，官网给它的定义是<code>Organize your brain</code>，但我很喜欢Workflowy页面的这句话<code>Make Lists， Not War</code>（宁可制造大量的列表，也不要制造战争）。我之前是一个不喜欢收集信息的人，平时喜欢通过关键词去记忆，用到的时候通过检索来获得信息，不存在任何的知识储备。但是做律师久了发现自己总是会忘事，偶尔心中有一些琐碎的观点，真正写的时候却不知道如何下笔。后来使用workflowy来整理自己琐碎的思维。<br /><strong>法律之端</strong>公众号大部分文章的初稿都在workflowy上完成的。撰写流程都是通过在Workflowy 撰写文章提纲，之后在提纲项下补充要点，在进行要点扩容。下图是计划写的一系列文章，在最开始的时候我只是有一个概括的标题，内容都是平时零散的添加。<br /><a href="https://imgchr.com/i/ABym9J"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140019-d63ac129-6fb6-4c13-962f-675edb1a21f0.gif#align=left&amp;display=inline&amp;height=606&amp;originHeight=1396&amp;originWidth=1718&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br />Workflowy对我的意义不仅是记录生活日常、收藏网址、做庭前准备资料、庭审质证意见、庭审笔录速记等事项，更为重要的是让我生活养成了记录的习惯。<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216138937-ce1837b7-6e3f-4e64-a93c-40dedd479d66.png#align=left&amp;display=inline&amp;height=469&amp;originHeight=1720&amp;originWidth=2736&amp;size=0&amp;status=done&amp;width=746" alt=""><br />有时翻看法条的时候，总是难以回避法条之间的内部关联，比如我们看到民诉法解释第九十八条<code>当事人根据民事诉讼法第八十一条第一款规定申请证据保全的</code>，但像我这种对法条不太熟悉的律师，只能跑回去重新翻看民诉法第八十一条是如何规定的。于是我拿workflowy制作了一个专属自己的的民诉法条汇编。将民诉法与民诉解释相关法条进行关联，还包括执行相关的部分规定等。并自定义了一些常用关键词：一审、执行异议等等，以便在实务中快速的找到法条。<br /><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140156-68c78c61-0663-4ba0-918f-641157756a45.gif#align=left&amp;display=inline&amp;height=488&amp;originHeight=1388&amp;originWidth=2122&amp;size=0&amp;status=done&amp;width=746" alt=""><br>
+<a name="Everything"></a></p>
+<h3 id="everything">Everything</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>Everything可以快速检索你文件中任意文本。同时，支持文件类型检索及布尔值检索等多种检索方式，能够让您快捷的找到你的目标文件。</p>
+<ul>
+<li>关键词 空格表示文档必须包括这几个字</li>
+<li>通过 <code>|</code> 来代表或</li>
+<li>同时可以使用<code>pic:</code> 来搜索之前的图片，<code>doc：</code>搜索文本等等</li>
+<li>通配符搜索<code>*.pdf</code>在配以关键词关键词命名的文档</li>
+</ul>
+<p><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216138763-08575a03-586c-4820-90dc-b279671b7051.png#align=left&amp;display=inline&amp;height=626&amp;originHeight=1473&amp;originWidth=1756&amp;size=0&amp;status=done&amp;width=746" alt=""><br>
+<a name="992b0d98"></a></p>
+<h3 id="listary-pro">listary pro</h3>
+<ul>
+<li>软件性质：收费</li>
+<li>同类软件：wox，utools（均免费）</li>
+</ul>
+<p>listary pro 是everything的增强工具，支持软件的首字母检索，可以快速的打开应用。同时，搭配everything等软件，可以打造属于自己的本地检索工具。<br />listary pro支持拼音检索，比如打开腾讯微云这个软件，只需要输入<code>weiyun</code>的首字母<code>wy</code>即可。<br /><a href="https://imgchr.com/i/ArN8Qf"><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140620-a01451fc-66f7-403b-a3be-bcaf606b38b6.png#align=left&amp;display=inline&amp;height=661&amp;originHeight=872&amp;originWidth=984&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br />平时我们想使用威科先行搜索民诉法可能需要：</p>
+<ul>
+<li>打开浏览器</li>
+<li>输入威科先行网址</li>
+<li>输入文件内容，回车搜索</li>
+</ul>
+<p>但是通过listary，只需要输入<code>wk 关键词</code>即可快速打开威科先行检索页面：<br /><a href="https://imgchr.com/i/ADMImt"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140696-2ff4c455-48d6-4344-a592-cd33885869c0.gif#align=left&amp;display=inline&amp;height=380&amp;originHeight=932&amp;originWidth=1831&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br />设置方法：<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216139035-29d870db-4e54-4b2a-af37-9d3662b1e4bc.png#align=left&amp;display=inline&amp;height=666&amp;originHeight=1404&amp;originWidth=1572&amp;size=0&amp;status=done&amp;width=746" alt=""><br />除此之外，可以设置知乎、微信搜狗等垂直搜索引擎：</p>
+<pre><code>威科先行：https://law.wkinfo.com.cn/legislation/list?q={query}
+知乎：https://www.zhihu.com/search?q={query}
+微信搜狗搜索：http://weixin.sogou.com/weixin?type=2&amp;query={query}
+</code></pre>
+<p>也可以设置对当前目录进行搜索：<br /><a href="https://imgchr.com/i/ADlOLn"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140075-6a43b218-1f8b-40a7-875f-4c94c2295eea.gif#align=left&amp;display=inline&amp;height=587&amp;originHeight=1376&amp;originWidth=1748&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br />设置方法为：<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140196-4e94ed72-f18a-4d9a-b42d-6d8b0ffdaf16.png#align=left&amp;display=inline&amp;height=666&amp;originHeight=1404&amp;originWidth=1572&amp;size=0&amp;status=done&amp;width=746" alt=""><br />参数为:</p>
+<pre><code>-s &quot; &quot;&quot;&quot;%path%&quot;&quot;&quot; {query} &quot;
+</code></pre>
+<p><a name="Quicker"></a></p>
+<h3 id="quicker">Quicker</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>Quicker 提供了随时可以激活的快捷面板。使我们在不同的程序下设计不同的动作。<br />但Quicker最强大的功能是可以自定义动作，比如当我们想从PC发送一份文件到微信文件助手，我们只需要一步就可以完成：<br /><a href="https://imgchr.com/i/AsYjoj"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140318-8e1df8b3-e77b-46ce-b9fc-936cc7a24414.gif#align=left&amp;display=inline&amp;height=537&amp;originHeight=1678&amp;originWidth=2332&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br />还可以在浏览网页的时候，选中文字进行搜索：<br /><a href="https://imgchr.com/i/AstOc6"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140116-29251a40-4753-415e-a1d7-9f9f7c4f3f67.gif#align=left&amp;display=inline&amp;height=469&amp;originHeight=1109&amp;originWidth=1765&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br />Quicker可以根据不同的应用程序设置不同的快捷动作，同时提供了共享库，使用的时候直接拖过来即可。<br /><a href="https://imgchr.com/i/AsNuNj"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140604-3f2c69c0-81b3-4eb2-be6a-482c6c8e6d88.gif#align=left&amp;display=inline&amp;height=467&amp;originHeight=1197&amp;originWidth=1913&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br />当然还可以进行word规范排版：<a href="https://imgchr.com/i/Asd42R"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140273-d770d158-4520-45aa-beab-f1e23122af2a.gif#align=left&amp;display=inline&amp;height=499&amp;originHeight=967&amp;originWidth=1445&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br>
+<a name="41e382f5"></a></p>
+<h3 id="天若文字识别工具">天若文字识别工具</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>OCR 文字识别是律师在阅卷和查阅扫描版PDF 的时候最需要的一个功能。但有的时候我们不需要 abbyy 等大块头的软件。天若文字识别就很好解决了这项需求。<br /><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216141027-1b19f063-44ce-4569-b1cf-be65f126545f.gif#align=left&amp;display=inline&amp;height=539&amp;originHeight=632&amp;originWidth=874&amp;size=0&amp;status=done&amp;width=746" alt="">来源：天若ocr官方<br />除此之外，该款软件还支持翻译等功能。<br>
+<a name="c0d0371d"></a></p>
+<h3 id="office-365">office 365</h3>
+<ul>
+<li>软件性质：收费</li>
+</ul>
+<p>office 365 不同于office2019，有以下优点：</p>
+<ul>
+<li>1TB的个人云存储</li>
+<li>跨平台支持，每个账号支持5个设备，不仅支持PC，ios、安卓等手机设备也可以编辑和word。</li>
+<li>可以在线协作编辑。</li>
+</ul>
+<p>笔者最喜欢的功能是自动保存，之前在写一个文档的时候，会有多个版本。为方便记忆会以时间命名的方式对文件予以区分。久而久之文件很多文件版本堆积在一个文件夹内。 office 365提供了文档自动保存的功能，据微软所述是按照秒为单位进行保存的。这个是笔者撰写合同的一个历史版本记录：<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140340-92876959-e0fb-4eab-bd45-22b8755afb82.png#align=left&amp;display=inline&amp;height=502&amp;originHeight=1381&amp;originWidth=2052&amp;size=0&amp;status=done&amp;width=746" alt=""></p>
+<p>同时，不同的版本文件可以进行对比，对修改的所有地方进行提示。</p>
+<p><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140177-bf5b9717-0e3f-44dc-ab14-ff58f2b7a68b.png#align=left&amp;display=inline&amp;height=502&amp;originHeight=1374&amp;originWidth=2041&amp;size=0&amp;status=done&amp;width=746" alt=""><br>
+<a name="1fd8fae4"></a></p>
+<h3 id="石墨文档">石墨文档</h3>
+<ul>
+<li>软件性质：免费</li>
+<li>同类软件：语雀、腾讯文档</li>
+</ul>
+<p>石墨文档是一款简单的在线文档工具，可以满足office的基本功能，之所以使用石墨是为了解决有时在有些同事的电脑临时写一些文件或者一些文档的在线分享。个人一直认为云协作是律师未来工作的一种方式。<br>
+<a name="TranslucentTB"></a></p>
+<h3 id="translucenttb">TranslucentTB</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>微软在windows 10系统取消了aero特效功能，在日常使用的时候任务栏存在黑边，笔者这样的强迫症是分分钟无法容忍的。而TranslucentTB 解决了这一问题，而且有绿色版本，占用系统资源也极低。</p>
+<p><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216138858-af82658a-13ee-4421-b734-0e02538fd380.png#align=left&amp;display=inline&amp;height=22&amp;originHeight=80&amp;originWidth=2736&amp;size=0&amp;status=done&amp;width=746" alt="">使用前<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216138734-d2dfe047-212a-408f-8c0c-8bc728429c0d.png#align=left&amp;display=inline&amp;height=20&amp;originHeight=75&amp;originWidth=2736&amp;size=0&amp;status=done&amp;width=746" alt="">使用后<br>
+<a name="ditto"></a></p>
+<h3 id="ditto">ditto</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>ditto是一款剪贴板的工具，可以保存你复制过的所有文本。不但支持搜索，而且可以在复制文本的时候对文本进行处理。</p>
+<p><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140164-e2ad6680-2a1a-4046-935e-ae5ec5599b7f.gif#align=left&amp;display=inline&amp;height=566&amp;originHeight=1200&amp;originWidth=1582&amp;size=0&amp;status=done&amp;width=746" alt="">支持粘贴板搜索<br>
+<a name="f02be8c2"></a></p>
+<h3 id="idm-下载工具">IDM 下载工具</h3>
+<ul>
+<li>软件性质：收费</li>
+<li>同类软件：Motrix 免费</li>
+</ul>
+<p>Windows的下载工具我用了很多，但是客观上没有哪款工具能够做到向IDM那样高速下载的。更为重要的是搭配IDM的插件可以下载百度网盘的文件。<br />而 Motrix 是一款清爽开源的免费下载工具，采用了Aria 2为核心，支持 HTTP、FTP、BT、磁力链接和百度网盘的下载。</p>
+<p><a href="https://imgchr.com/i/ADJ8gS"><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140182-a428f4d6-2dad-450d-bb10-50b63a7eaf77.png#align=left&amp;display=inline&amp;height=595&amp;originHeight=1636&amp;originWidth=2052&amp;size=0&amp;status=done&amp;width=746" alt=""></a>Motrix安装百度网盘插件</p>
+<p><a name="35989c89"></a></p>
+<h3 id="字体替换">字体替换</h3>
+<p>Windows为了兼容老旧设备而作出了一些牺牲，因此在电脑字体的渲染没有Mac os的清晰。可以参考这篇文章进行修改字体。</p>
+<pre><code>不输 MacType，这些优化思路也能让 Windows 字体细腻清晰 - https://sspai.com/post/52815
+</code></pre>
+<p>使用的软件是noMeiryoUI，将默认的微软雅黑替换成了更纱黑体。<br>
+<a name="9b2be4f4"></a></p>
+<h3 id="手心输入法">手心输入法</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>在这里简单介绍下双拼输入法，双拼输入法其实是键位的重新组合。通过自定义键盘而映射声母和韵母。<br />比如当使用双拼输入法输入「双拼」时，依据自然码的方案：</p>
+<ul>
+<li>按键<code>U</code>，对应声母<code>U</code>，韵母<code>sh</code></li>
+<li>按键<code>D</code>，对应声母<code>D</code>，韵母<code>iang</code>和<code>uang</code></li>
+<li>按键<code>P</code>，对应声母<code>P</code>，韵母<code>un</code></li>
+<li>按键<code>N</code>，对应声母<code>N</code>，韵母<code>in</code></li>
+</ul>
+<p><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216139040-86c4a06d-9311-4f3e-a42c-25127388dd0b.png#align=left&amp;display=inline&amp;height=129&amp;originHeight=129&amp;originWidth=256&amp;size=0&amp;status=done&amp;width=256" alt=""><br />同时，有人将字形引入至输入法，组成了音码和形码结合的输入法，我们常说为辅码。以自然码的双拼方案为例：第一辅码是部首的声母，第二辅码是部首外的声母。比如<strong>辅</strong>这个字，<code>fu</code>为<strong>辅</strong>的双拼或全拼，然后将其拆成 <strong>车</strong> 和<strong>甫</strong>，那么它的辅码就是<code>if</code>，当我们输<code>fuif</code>时候选词诗就上屏显示了。</p>
+<p><a href="https://imgchr.com/i/ArNyOU"><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140144-bd288db0-b8b4-4949-9592-aa727e83f0be.png#align=left&amp;display=inline&amp;height=103&amp;originHeight=103&amp;originWidth=633&amp;size=0&amp;status=done&amp;width=633" alt=""></a></p>
+<p>实际中仅打了第一个辅码<br />windows 自带的输入法虽然支持双拼的，但是不支持辅码。搜狗等输入法需要通过tab键来开启辅码，暂时发现只有手心输入法是支持这种直接辅码模式的。<br>
+<a name="898ae4f8"></a></p>
+<h3 id="markdown-工具">Markdown 工具</h3>
+<p>Markdown 是一种轻量级标记语言，对于笔者来说Markdown 的意义并不是在于取代word，而是让我们敲击键盘时专注于写作本身，忘记排版问题给我们的干扰。<br />MarkDown 生成标题只需要输入<code># 敲击空格 这是一级标题</code>会自动生成一级标题，同理生成二级标题只输入<code>## 敲击空格 这是二级标题</code>即可，最多支持六级标题。</p>
+<pre><code># 这是一级标题
+## 这是二级标题
+### 这是三级标题
+#### 这是四级标题
+这是正文
+</code></pre>
+<p>实际过程中，软件会显示下图所示：<br /><a href="https://imgchr.com/i/Ar6eIK"><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140757-a4cf9980-7177-4f19-a92f-f0a4a3230e14.png#align=left&amp;display=inline&amp;height=404&amp;originHeight=669&amp;originWidth=1235&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br />有序列表的使用只要输入<code>1.</code> 之后敲击空格键。无序列表需要输入<code>*</code>后敲击空格。<strong>两个星号<code>**</code>加起来</strong>表示加粗。_一个星号<code>*</code>_表示斜体。<s>我删除一句话</s>需要输入两个<code>~</code>。<br />但是用了windows后，适用了typora、acrylic Markdown等工具，但都不是很喜欢，现在使用的是vscode。实在是没有找到一款很好的markdown工具。如果大家有欢迎大家给笔者留言。<br /><a href="https://imgchr.com/i/AD0Em8"><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140954-f404b5d2-eb69-4c49-bf8d-de73a5ca8c3a.png#align=left&amp;display=inline&amp;height=497&amp;originHeight=1824&amp;originWidth=2736&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br>
+<a name="Quicklook"></a></p>
+<h3 id="quicklook">Quicklook</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>Mac系统自带了快速预览的功能，只要点击单击空格就可以预览文件，查看文件的内容，节省了大量的时间。QuickLook能够完美的实现该功能，既方便的查找文档，又不用打开文件。<br /><a href="https://imgchr.com/i/AD01XV"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140448-88738384-cdf1-4c74-8a90-c3f79ba82f10.gif#align=left&amp;display=inline&amp;height=388&amp;originHeight=1552&amp;originWidth=2713&amp;size=0&amp;status=done&amp;width=678" alt=""></a><br />注意：在使用 QuickLook 预览office文档的时候需要安装单独的插件。<br>
+<a name="2d79dedb"></a></p>
+<h3 id="pdf阅读器">PDF阅读器</h3>
+<p><a name="xodo"></a></p>
+<h4 id="xodo">xodo</h4>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>xodo的不仅免费，而且支持了日常PDF的绝大部分功能，对触控板支持也很好，可能唯一的缺点是不支持中文。<br>
+<a name="fbdd961b"></a></p>
+<h4 id="adobe-acrobat-reader">Adobe Acrobat Reader</h4>
+<ul>
+<li>软件性质：收费</li>
+</ul>
+<p>虽然有很多免费的PDF阅读器，但是还是使用了官方的Adobe Acrobat Reader ，主要是该软件支持了图片增强功能，可以将扫描版的PDF转化为可搜索的文字版。图为使用图片增强后识别的某扫描版PDF文件。<br /><a href="https://imgchr.com/i/AD0BX6"><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216141034-b9017f72-984e-4a3c-a85b-7d229bf5325c.png#align=left&amp;display=inline&amp;height=456&amp;originHeight=1824&amp;originWidth=2736&amp;size=0&amp;status=done&amp;width=684" alt=""></a><br>
+<a name="OneNote"></a></p>
+<h3 id="onenote">OneNote</h3>
+<ul>
+<li>软件性质：免费</li>
+<li>同类软件：印象笔记、为知笔记、有道云笔记</li>
+</ul>
+<p>其实我之前尝试过多次使用印象笔记、有道云笔记、OneNote、 为知笔记均失败了。后来买了surface开始使用OneNote，正式使用也是不到半年的样子，其实还处于一个学习的过程。现在主要用它来做资料的仓库。这个是我用来学习案例记的笔记：<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216139463-58417876-504c-4bf5-87ce-09f0c11cab8e.png#align=left&amp;display=inline&amp;height=644&amp;originHeight=1614&amp;originWidth=1869&amp;size=0&amp;status=done&amp;width=746" alt=""><br />OneNote 还有一个超级实用的功能就是录音定位。当你录音的时候可以记录你的文字位置。回放时点击文字旁边的小按钮就自动播放音频。特别适合一些会议场景。<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216139164-ec39e0aa-2d2e-4bc0-9fd3-7f8c370bb7ef.png#align=left&amp;display=inline&amp;height=628&amp;originHeight=1824&amp;originWidth=2167&amp;size=0&amp;status=done&amp;width=746" alt=""><br>
+<a name="kodi"></a></p>
+<h3 id="kodi">kodi</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>Surface相对ipad而言，娱乐功能比较少些。但像笔者这个年纪的人，梦想不在轻盈，开始掂量生活，注重果实而非花朵。笔者之前是一个美剧和电影爱好者。现在看的虽然少了，残留的爱好有些，偶尔还是看下。<br />对于影音方面，还是通过kodi连接自己的群晖，而且支持外挂字幕。大部分的作用是朋友来家里的时候炫耀下。<img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216139105-a4e12b86-d321-4250-bd58-ee8b231003c2.png#align=left&amp;display=inline&amp;height=427&amp;originHeight=1706&amp;originWidth=2560&amp;size=0&amp;status=done&amp;width=640" alt=""><br>
+<a name="bdb90cd1"></a></p>
+<h3 id="snipate截图工具">Snipate：截图工具</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>Snipate不同于其他的截图工具，本身拥有强大的贴图和标注功能。在阅读一些文献资料的时候，可以利用贴图功能将文字与图片信息钉在桌面上，能够很好的进行对比。<br /><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216139137-c041732d-00fa-408f-9d07-cae7cea66931.gif#align=left&amp;display=inline&amp;height=263&amp;originHeight=525&amp;originWidth=879&amp;size=0&amp;status=done&amp;width=440" alt=""><br />Snipaste 标注的功能众多，包括马赛克、记号笔、画笔、写字。<br /><a href="https://imgchr.com/i/ArBnw8"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140444-52c4647f-ac3a-4cdc-aca8-3582ee89c2da.gif#align=left&amp;display=inline&amp;height=322&amp;originHeight=644&amp;originWidth=815&amp;size=0&amp;status=done&amp;width=408" alt=""></a></p>
+<p>来源：snipaste官网<br>
+<a name="1845cafb"></a></p>
+<h3 id="autohotkey">AutoHotkey</h3>
+<ul>
+<li>软件性质：免费</li>
+<li>同类软件：capslock+</li>
+</ul>
+<p>Windows 的键盘有两个按键我习惯性的按错：</p>
+<ul>
+<li>windows键</li>
+<li>caps键（大写键）</li>
+</ul>
+<p>而AutoHotkey是一款可以编辑的自动化软件，可以实现热键以及文本替换的功能。</p>
+<pre><code>! 号代表 Alt 键；
+^ 号代表 Ctrl 键；
++ 号代表 shift 键；
+:: 号(两个英文冒号)起分隔作用；
+run，后面接运行程序的完整路径;
+; 号代表 注释后面一行内容；
+</code></pre>
+<p>比如用禁用Caps键，使用<code>alt Caps</code>替代。</p>
+<pre><code>$CapsLock::Enter
+LAlt &amp; Capslock::SetCapsLockState, % GetKeyState(&quot;CapsLock&quot;, &quot;T&quot;) ? &quot;Off&quot; : &quot;On&quot;
+</code></pre>
+<p>也可以进行重复文本的替换</p>
+<pre><code>::/dl::欢迎关注法律之端！
+::/mail::duanlaw@gmail.com
+</code></pre>
+<p><a href="https://imgchr.com/i/ArsSe0"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140232-afdd2953-0bd6-4d37-b318-59736f3d4ffb.gif#align=left&amp;display=inline&amp;height=495&amp;originHeight=990&amp;originWidth=798&amp;size=0&amp;status=done&amp;width=399" alt=""></a><br />注意：中文模式下输入<code>、</code>号同样能够进行替换。<br>
+<a name="iSlide"></a></p>
+<h3 id="islide">iSlide</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>iSlide 是一款ppt插件，提供了丰富的图表、图标，还有一些特殊的功能，比如批量修改文字等等。<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140276-1e7caf54-0874-4a26-a15e-eed75fc60aeb.png#align=left&amp;display=inline&amp;height=497&amp;originHeight=1824&amp;originWidth=2736&amp;size=0&amp;status=done&amp;width=746" alt=""><br>
+<a name="Gesturesign"></a></p>
+<h3 id="gesturesign">Gesturesign</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>GestureSign 是一款开源的 Windows 手势控制软件，支持 Windows 8.1、Windows 10 的 64/32 位电脑。可用触摸屏、触控板、触控笔和鼠标划出手势，方便地执行一些命令，如执行快捷键、发送文本命令、运行程序等等。<br>
+<a name="Imagine"></a></p>
+<h3 id="imagine">Imagine</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>伴随着手机像素的提高，随便拍张照片都将近10几兆的大小，因为电脑自带的存储空间是128G的，为了节省空间，我都会对图片进行压缩处理。使用的图片压缩工具是Imagine。</p>
+<ul>
+<li>支持 PNG 和 JPG</li>
+<li>能实时观察优化结果</li>
+<li>批量处理文件和保存</li>
+</ul>
+<p>以 unsplash 下载的高清图片演示如下：<br /><a href="https://imgchr.com/i/ArsOAK"><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140457-27c53cb2-ba99-472c-9e07-76b5d6b2f01a.png#align=left&amp;display=inline&amp;height=539&amp;originHeight=1189&amp;originWidth=1646&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br>
+<a name="Coldturkey"></a></p>
+<h3 id="coldturkey">Coldturkey</h3>
+<ul>
+<li>软件性质：免费、增值收费</li>
+</ul>
+<p>Coldturkey 是一款全平台的网络管理工具，他可以做到禁止您某一时间访问某一网站（淘宝、知乎、京东等等），只有等您过了设置的时间之后才会正常访问。软件安装后需要在各浏览器上安装相应的插件。当笔者将知乎加入黑名单后，访问知乎就会显示下图的界面。<br /><a href="https://imgchr.com/i/ArdwYd"><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140925-678f0af0-267d-4b99-9e15-47175ca557ce.png#align=left&amp;display=inline&amp;height=497&amp;originHeight=1822&amp;originWidth=2736&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br>
+<a name="Rescuetime"></a></p>
+<h3 id="rescuetime">Rescuetime</h3>
+<ul>
+<li>软件性质：免费、增值收费</li>
+</ul>
+<p>Rescuetime 是一款时间记录软件，能够记录您在某段时间内访问了哪些网站、使用了哪些应用，在相应的平台停留的时间。不仅如此，该软件将时间的记录以可视化图表的方式进行呈现，让您知道时间都去哪了，控制您的时间成本。<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140477-1de7a115-0613-46eb-bad5-352eeb40e727.png#align=left&amp;display=inline&amp;height=354&amp;originHeight=948&amp;originWidth=1998&amp;size=0&amp;status=done&amp;width=746" alt=""><br />当我们想要了解每一项的具体花费时，点开柱状图中的圆柱，就可以看到访问网站 / 软件的时间，及所花费的时间。<br>
+<a name="80c98c1e"></a></p>
+<h3 id="neat-reader">Neat Reader</h3>
+<ul>
+<li>软件性质：收费</li>
+</ul>
+<p>平时偶尔会拿手机看下电子书，因此需要一款跨平台的电子书阅读工具。最终选择了neatreader，在文件浏览还有标记上都可以做到实时同步。<br /><a href="https://imgchr.com/i/Ashbee"><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140434-28ede93f-6ecf-4050-aa2a-978bc0800917.png#align=left&amp;display=inline&amp;height=533&amp;originHeight=1557&amp;originWidth=2178&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br>
+<a name="60677fe8"></a></p>
+<h3 id="total-uninstall">Total uninstall</h3>
+<ul>
+<li>软件性质：收费</li>
+</ul>
+<p>total uninstall可以监控程序的安装移除多余的文件和注册表项目。<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140332-bf09e340-545f-4f75-a2e8-999306a2084b.png#align=left&amp;display=inline&amp;height=555&amp;originHeight=1529&amp;originWidth=2056&amp;size=0&amp;status=done&amp;width=746" alt=""><br>
+<a name="Newsflow"></a></p>
+<h3 id="newsflow">Newsflow</h3>
+<ul>
+<li>软件性质：免费</li>
+</ul>
+<p>Rss 是一个信息聚合的工具，它的目的是将新闻标题，新闻标题、摘要（Feed）、内容按照用户的要求送达给用户。你每天打开rss工具就可以访问平时浏览的网站。但是Rss本身就是一款小众的产品。之所以使用rss，是因为信息太多了，而且很多的信息对我们来说都是无意义的。逐渐感觉自己被信息所吞没。<br /><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216139468-b36a7c75-9047-4ce9-a637-22e737857c3c.png#align=left&amp;display=inline&amp;height=497&amp;originHeight=1706&amp;originWidth=2560&amp;size=0&amp;status=done&amp;width=746" alt=""><br /><br>
+<img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216139468-b36a7c75-9047-4ce9-a637-22e737857c3c.png#align=left&amp;display=inline&amp;height=497&amp;originHeight=1706&amp;originWidth=2560&amp;size=0&amp;status=done&amp;width=746" alt=""><br>
+<a name="e0cc20c6"></a></p>
+<h3 id="latermark-for-pocket">Latermark for Pocket</h3>
+<ul>
+<li>软件性质：免费（有广告）</li>
+</ul>
+<p>Latermark for Pocket 是windows 系统下的一款第三方阅读工具，对于有些需要深读的文章，笔者都会暂存在pocket上面进行二次阅读。虽然有广告，但可以通过付款的方式移除。</p>
+<p><a href="https://imgchr.com/i/Ar0JaD"><img src="https://cdn.nlark.com/yuque/0/2019/png/120702/1555216140510-aa001b90-41b8-426f-8688-f17b983ec3e5.png#align=left&amp;display=inline&amp;height=497&amp;originHeight=1822&amp;originWidth=2736&amp;size=0&amp;status=done&amp;width=746" alt=""></a><br>
+<a name="SmartTaskbar"></a></p>
+<h3 id="smarttaskbar">SmartTaskbar</h3>
+<p>SmartTaskbar是一款当窗口最大化的时候可以自动隐藏任务栏的小软件，增大可视面积，在阅读文献和浏览网页的时候非常有用。<br /><a href="https://imgchr.com/i/AySBMF"><img src="https://cdn.nlark.com/yuque/0/2019/gif/120702/1555216140846-5a6709e2-0233-483c-91aa-741974965595.gif#align=left&amp;display=inline&amp;height=560&amp;originHeight=600&amp;originWidth=800&amp;size=0&amp;status=done&amp;width=746" alt=""></a>来源：SmartTaskbar作者<br>
+<a name="5a0afc9d"></a></p>
+<h3 id="其它">其它</h3>
+<p>在软件使用上我一般遵循无广告、无捆绑安装等基本的要求，所以数字公司、腾讯等国内免费的安全软件基本不属于我的考虑范围。因为免费的永远都是最贵的。但是安全软件我还是使用了火绒，主要是使用文件粉碎还有垃圾清理功能。当然你可以使用微软自带的windows defender作为杀毒软件。清理工具建议使用Dism++，压缩工具建议使用bandzip。</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Ted 丨死刑辩护教我的事情]]></title>
-        <id>C:/Users/ubuntu/Documents/Gridea/output/post/ted_lawyer_01/index.html</id>
-        <link href="C:/Users/ubuntu/Documents/Gridea/output/post/ted_lawyer_01/index.html">
+        <id>http://geeklaw.github.io//post/ted_lawyer_01</id>
+        <link href="http://geeklaw.github.io//post/ted_lawyer_01">
         </link>
         <updated>2019-08-07T06:02:01.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
