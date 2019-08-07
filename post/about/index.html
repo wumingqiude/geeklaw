@@ -1,0 +1,208 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    关于 | 无名的裘德
+</title>
+<link rel="shortcut icon" href="C:/Users/ubuntu/Documents/Gridea/output/favicon.ico?v=1565168213742">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="C:/Users/ubuntu/Documents/Gridea/output/styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="C:/Users/ubuntu/Documents/Gridea/output/media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+
+        
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="C:/Users/ubuntu/Documents/Gridea/output">
+                <img class="avatar" src="C:/Users/ubuntu/Documents/Gridea/output/images/avatar.png?v=1565168213742" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    无名的裘德
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="C:/Users/ubuntu/Documents/Gridea/output//index.html" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="C:/Users/ubuntu/Documents/Gridea/output/archives/index.html" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="C:/Users/ubuntu/Documents/Gridea/output/tags/index.html" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="C:/Users/ubuntu/Documents/Gridea/output/post/about/index.html" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            关于
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2019-01-25</time>
+                            
+                        </div>
+                        
+                                <div class="post-content">
+                                    <p><img src="https://s2.ax1x.com/2019/06/29/ZQozse.png" alt="银翼杀手.png"></p>
+<hr>
+<blockquote>
+<p>有一分热，发一分光，就令萤火一般；也可以在黑暗里发一点光，不必等候炬火。</p>
+</blockquote>
+<h2 id="关于我">关于我</h2>
+<p>一个宅男 🍕<br>
+一个律师 🤵<br>
+一个即使能穿越外面的围墙<br>
+但内心深处的安全红线却越来越深的人。</p>
+<p>已经一年多没有读书了，更可怕的事对我而言集中注意力都成为了一件很困难的事，我希望自己能够坚持的写一些东西，希望能够自救。</p>
+<h2 id="大事记">大事记</h2>
+<ul>
+<li>2019年08月07日，博客搭建成功。</li>
+</ul>
+
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                        <!-- toc -->
+                        
+    <div class="toc-card i-card ">
+        <div class="toc-title i-card-title">目录</div>
+        <div class="toc-content">
+            <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E5%85%B3%E4%BA%8E%E6%88%91">关于我</a></li>
+<li><a href="#%E5%A4%A7%E4%BA%8B%E8%AE%B0">大事记</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        <script>
+            function locateCatelogList() {
+                /*获取文章目录集合,可通过:header过滤器*/
+                var alis = $('.post-content :header');
+                /*获取侧边栏目录列表集合**/
+                var sidebar_alis = $('.markdownIt-TOC a');
+                /*获取滚动条到顶部的距离*/
+                var scroll_height = $(window).scrollTop();
+                for (var i = 0; i < alis.length; i++) {
+                    /*获取锚点集合中的元素分别到顶点的距离*/
+                    var a_height = $(alis[i]).offset().top;
+                    if (a_height < scroll_height) {
+                        /*高亮显示*/
+                        sidebar_alis.removeClass('on');
+                        $(sidebar_alis[i]).addClass('on');
+                    }
+                }
+            }
+            $(function() {
+                /*绑定滚动事件 */
+                $(window).bind('scroll', locateCatelogList);
+            });
+        </script>
+    </div>
+    
+                            
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="site-footer">
+  Powered by <a href="http://hvenotes.fehey.com/" target="_blank">Gridea</a> | 
+  <a class="rss" href="C:/Users/ubuntu/Documents/Gridea/output/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
+</body>
+
+</html>
