@@ -1,168 +1,466 @@
 <html>
-  <head>
-  <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>效率 | 无名的裘德</title>
+
+<head>
+    <meta charset="utf-8" />
 <meta name="description" content="" />
-<link rel="shortcut icon" href="https://wumingqiude.github.io//favicon.ico?v=1565184266986">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    效率 | 无名的裘德
+</title>
+<link rel="shortcut icon" href="https://wumingqiude.github.io//favicon.ico?v=1565184380342">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://wumingqiude.github.io//styles/main.css">
-
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://wumingqiude.github.io//media/js/jquery.sticky-sidebar.min.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
+</head>
 
-  </head>
-  <body>
+<body>
     <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://wumingqiude.github.io/">
-  <img class="avatar" src="https://wumingqiude.github.io//images/avatar.png?v=1565184266986" alt="">
-  </a>
-  <h1 class="site-title">
-    无名的裘德
-  </h1>
-  <p class="site-description">
-    
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-</div>
-
-        <div class="current-tag-container">
-            <h2 class="title">
-                标签：# 效率
-            </h2> 
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://wumingqiude.github.io/">
+                <img class="avatar" src="https://wumingqiude.github.io//images/avatar.png?v=1565184380342" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    无名的裘德
+                </h1>
+            </div>
         </div>
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://wumingqiude.github.io//post/windows_001">
-        <h2 class="post-title">Awesome-Windows-丨详细篇</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2019-08-07
-        </span>
-        <span>
-          4 min read
-        </span>
-        
-          <a href="https://wumingqiude.github.io//tag/zTNB96H96" class="post-tag">
-            # windows
-          </a>
-        
-          <a href="https://wumingqiude.github.io//tag/l_K_Cg2-i7" class="post-tag">
-            # 律师
-          </a>
-        
-          <a href="https://wumingqiude.github.io//tag/ahKO0B7n7k" class="post-tag">
-            # 效率
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        
-      </di>
-    </article>
-  
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
 </div>
 
-        <div class="pagination-container">
-  
-  
-</div>
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
 
-        <div class="site-footer">
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-container main-container">
+                <div id="content" class="main-container-left">
+                    
+    <div class="i-card">
+        <b>标签：#
+        效率</b>
+    </div>
+    
+        
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://wumingqiude.github.io//post/windows_001">
+                        Awesome-Windows-丨详细篇
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2019-08-07</time>
+                    
+                        <a href="https://wumingqiude.github.io//tag/zTNB96H96" class="post-tag i-tag
+                            i-tag-banana">
+            #windows
+        </a>
+                        
+                        <a href="https://wumingqiude.github.io//tag/l_K_Cg2-i7" class="post-tag i-tag
+                            i-tag-warning">
+            #律师
+        </a>
+                        
+                        <a href="https://wumingqiude.github.io//tag/ahKO0B7n7k" class="post-tag i-tag
+                            i-tag-other_3">
+            #效率
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            本文写给使用Windows系统的律师，不足之处欢迎大家补充，有部分软件比如Workflowy、OneNote、Quicker等我会今后写一篇文章进行介绍。有时间在聊聊Mac。利用业余时间，断断续续写了两个星期，就没有单独整理各个软件的下载地址，大家依据软件名称自行搜索下即可。
+
+WorkFlowy
+
+软件性质：免费
+同类软件：幕布
+
+WorkFlowy 是一款大纲笔记工具，官网给它的定义是Organize your brain，但我很喜欢Workflowy页面的这句话Make Lists， Not War（宁可制造大量的列表，也不要制造战争）。我之前是一个不喜欢收集信息的人，平时喜欢通过关键词去记忆，用到的时候通过检索来获得信息，不存在任何的知识储备。但是做律师久了发现自己总是会忘事，偶尔心中有一些琐碎的观点，真正写的时候却不知道如何下笔。后来使用workflowy来整理自己琐碎的思维。法律之端公众号大部分文章的初稿都在workflowy上完成的。撰写流程都是通过在Workflowy 撰写文章提纲，之后在提纲项下补充要点，在进行要点扩容。下图是计划写的一系列文章，在最开始的时候我只是有一个概括的标题，内容都是平时零散的添加。Workflowy对我的意义不仅是记录生活日常、收藏网址、做庭前准备资料、庭审质证意见、庭审笔录速记等事项，更为重要的是让我生活养成了记录的习惯。有时翻看法条的时候，总是难以回避法条之间的内部关联，比如我们看到民诉法解释第九十八条当事人根据民事诉讼法第八十一条第一款规定申请证据保全的，但像我这种对法条不太熟悉的律师，只能跑回去重新翻看民诉法第八十一条是如何规定的。于是我拿workflowy制作了一个专属自己的的民诉法条汇编。将民诉法与民诉解释相关法条进行关联，还包括执行相关的部分规定等。并自定义了一些常用关键词：一审、执行异议等等，以便在实务中快速的找到法条。
+
+Everything
+
+软件性质：免费
+
+Everything可以快速检索你文件中任意文本。同时，支持文件类型检索及布尔值检索等多种检索方式，能够让您快捷的找到你的目标文件。
+
+关键词 空格表示文档必须包括这几个字
+通过 | 来代表或
+同时可以使用pic: 来搜索之前的图片，doc：搜索文本等等
+通配符搜索*.pdf在配以关键词关键词命名的文档
+
+
+
+listary pro
+
+软件性质：收费
+同类软件：wox，utools（均免费）
+
+listary pro 是everything的增强工具，支持软件的首字母检索，可以快速的打开应用。同时，搭配everything等软件，可以打造属于自己的本地检索工具。listary pro支持拼音检索，比如打开腾讯微云这个软件，只需要输入weiyun的首字母wy即可。平时我们想使用威科先行搜索民诉法可能需要：
+
+打开浏览器
+输入威科先行网址
+输入文件内容，回车搜索
+
+但是通过listary，只需要输入wk 关键词即可快速打开威科先行检索页面：设置方法：除此之外，可以设置知乎、微信搜狗等垂直搜索引擎：
+威科先行：https://law.wkinfo.com.cn/legislation/list?q={query}
+知乎：https://www.zhihu.com/search?q={query}
+微信搜狗搜索：http://weixin.sogou.com/weixin?type=2&amp;amp;query={query}
+
+也可以设置对当前目录进行搜索：设置方法为：参数为:
+-s &amp;quot; &amp;quot;&amp;quot;&amp;quot;%path%&amp;quot;&amp;quot;&amp;quot; {query} &amp;quot;
+
+
+Quicker
+
+软件性质：免费
+
+Quicker 提供了随时可以激活的快捷面板。使我们在不同的程序下设计不同的动作。但Quicker最强大的功能是可以自定义动作，比如当我们想从PC发送一份文件到微信文件助手，我们只需要一步就可以完成：还可以在浏览网页的时候，选中文字进行搜索：Quicker可以根据不同的应用程序设置不同的快捷动作，同时提供了共享库，使用的时候直接拖过来即可。当然还可以进行word规范排版：
+
+天若文字识别工具
+
+软件性质：免费
+
+OCR 文字识别是律师在阅卷和查阅扫描版PDF 的时候最需要的一个功能。但有的时候我们不需要 abbyy 等大块头的软件。天若文字识别就很好解决了这项需求。来源：天若ocr官方除此之外，该款软件还支持翻译等功能。
+
+office 365
+
+软件性质：收费
+
+office 365 不同于office2019，有以下优点：
+
+1TB的个人云存储
+跨平台支持，每个账号支持5个设备，不仅支持PC，ios、安卓等手机设备也可以编辑和word。
+可以在线协作编辑。
+
+笔者最喜欢的功能是自动保存，之前在写一个文档的时候，会有多个版本。为方便记忆会以时间命名的方式对文件予以区分。久而久之文件很多文件版本堆积在一个文件夹内。 office 365提供了文档自动保存的功能，据微软所述是按照秒为单位进行保存的。这个是笔者撰写合同的一个历史版本记录：
+同时，不同的版本文件可以进行对比，对修改的所有地方进行提示。
+
+
+石墨文档
+
+软件性质：免费
+同类软件：语雀、腾讯文档
+
+石墨文档是一款简单的在线文档工具，可以满足office的基本功能，之所以使用石墨是为了解决有时在有些同事的电脑临时写一些文件或者一些文档的在线分享。个人一直认为云协作是律师未来工作的一种方式。
+
+TranslucentTB
+
+软件性质：免费
+
+微软在windows 10系统取消了aero特效功能，在日常使用的时候任务栏存在黑边，笔者这样的强迫症是分分钟无法容忍的。而TranslucentTB 解决了这一问题，而且有绿色版本，占用系统资源也极低。
+使用前使用后
+
+ditto
+
+软件性质：免费
+
+ditto是一款剪贴板的工具，可以保存你复制过的所有文本。不但支持搜索，而且可以在复制文本的时候对文本进行处理。
+支持粘贴板搜索
+
+IDM 下载工具
+
+软件性质：收费
+同类软件：Motrix 免费
+
+Windows的下载工具我用了很多，但是客观上没有哪款工具能够做到向IDM那样高速下载的。更为重要的是搭配IDM的插件可以下载百度网盘的文件。而 Motrix 是一款清爽开源的免费下载工具，采用了Aria 2为核心，支持 HTTP、FTP、BT、磁力链接和百度网盘的下载。
+Motrix安装百度网盘插件
+
+字体替换
+Windows为了兼容老旧设备而作出了一些牺牲，因此在电脑字体的渲染没有Mac os的清晰。可以参考这篇文章进行修改字体。
+不输 MacType，这些优化思路也能让 Windows 字体细腻清晰 - https://sspai.com/post/52815
+
+使用的软件是noMeiryoUI，将默认的微软雅黑替换成了更纱黑体。
+
+手心输入法
+
+软件性质：免费
+
+在这里简单介绍下双拼输入法，双拼输入法其实是键位的重新组合。通过自定义键盘而映射声母和韵母。比如当使用双拼输入法输入「双拼」时，依据自然码的方案：
+
+按键U，对应声母U，韵母sh
+按键D，对应声母D，韵母iang和uang
+按键P，对应声母P，韵母un
+按键N，对应声母N，韵母in
+
+同时，有人将字形引入至输入法，组成了音码和形码结合的输入法，我们常说为辅码。以自然码的双拼方案为例：第一辅码是部首的声母，第二辅码是部首外的声母。比如辅这个字，fu为辅的双拼或全拼，然后将其拆成 车 和甫，那么它的辅码就是if，当我们输fuif时候选词诗就上屏显示了。
+
+实际中仅打了第一个辅码windows 自带的输入法虽然支持双拼的，但是不支持辅码。搜狗等输入法需要通过tab键来开启辅码，暂时发现只有手心输入法是支持这种直接辅码模式的。
+
+Markdown 工具
+Markdown 是一种轻量级标记语言，对于笔者来说Markdown 的意义并不是在于取代word，而是让我们敲击键盘时专注于写作本身，忘记排版问题给我们的干扰。MarkDown 生成标题只需要输入# 敲击空格 这是一级标题会自动生成一级标题，同理生成二级标题只输入## 敲击空格 这是二级标题即可，最多支持六级标题。
+# 这是一级标题
+## 这是二级标题
+### 这是三级标题
+#### 这是四级标题
+这是正文
+
+实际过程中，软件会显示下图所示：有序列表的使用只要输入1. 之后敲击空格键。无序列表需要输入*后敲击空格。两个星号**加起来表示加粗。_一个星号*_表示斜体。我删除一句话需要输入两个~。但是用了windows后，适用了typora、acrylic Markdown等工具，但都不是很喜欢，现在使用的是vscode。实在是没有找到一款很好的markdown工具。如果大家有欢迎大家给笔者留言。
+
+Quicklook
+
+软件性质：免费
+
+Mac系统自带了快速预览的功能，只要点击单击空格就可以预览文件，查看文件的内容，节省了大量的时间。QuickLook能够完美的实现该功能，既方便的查找文档，又不用打开文件。注意：在使用 QuickLook 预览office文档的时候需要安装单独的插件。
+
+PDF阅读器
+
+xodo
+
+软件性质：免费
+
+xodo的不仅免费，而且支持了日常PDF的绝大部分功能，对触控板支持也很好，可能唯一的缺点是不支持中文。
+
+Adobe Acrobat Reader
+
+软件性质：收费
+
+虽然有很多免费的PDF阅读器，但是还是使用了官方的Adobe Acrobat Reader ，主要是该软件支持了图片增强功能，可以将扫描版的PDF转化为可搜索的文字版。图为使用图片增强后识别的某扫描版PDF文件。
+
+OneNote
+
+软件性质：免费
+同类软件：印象笔记、为知笔记、有道云笔记
+
+其实我之前尝试过多次使用印象笔记、有道云笔记、OneNote、 为知笔记均失败了。后来买了surface开始使用OneNote，正式使用也是不到半年的样子，其实还处于一个学习的过程。现在主要用它来做资料的仓库。这个是我用来学习案例记的笔记：OneNote 还有一个超级实用的功能就是录音定位。当你录音的时候可以记录你的文字位置。回放时点击文字旁边的小按钮就自动播放音频。特别适合一些会议场景。
+
+kodi
+
+软件性质：免费
+
+Surface相对ipad而言，娱乐功能比较少些。但像笔者这个年纪的人，梦想不在轻盈，开始掂量生活，注重果实而非花朵。笔者之前是一个美剧和电影爱好者。现在看的虽然少了，残留的爱好有些，偶尔还是看下。对于影音方面，还是通过kodi连接自己的群晖，而且支持外挂字幕。大部分的作用是朋友来家里的时候炫耀下。
+
+Snipate：截图工具
+
+软件性质：免费
+
+Snipate不同于其他的截图工具，本身拥有强大的贴图和标注功能。在阅读一些文献资料的时候，可以利用贴图功能将文字与图片信息钉在桌面上，能够很好的进行对比。Snipaste 标注的功能众多，包括马赛克、记号笔、画笔、写字。
+来源：snipaste官网
+
+AutoHotkey
+
+软件性质：免费
+同类软件：capslock+
+
+Windows 的键盘有两个按键我习惯性的按错：
+
+windows键
+caps键（大写键）
+
+而AutoHotkey是一款可以编辑的自动化软件，可以实现热键以及文本替换的功能。
+! 号代表 Alt 键；
+^ 号代表 Ctrl 键；
++ 号代表 shift 键；
+:: 号(两个英文冒号)起分隔作用；
+run，后面接运行程序的完整路径;
+; 号代表 注释后面一行内容；
+
+比如用禁用Caps键，使用alt Caps替代。
+$CapsLock::Enter
+LAlt &amp;amp; Capslock::SetCapsLockState, % GetKeyState(&amp;quot;CapsLock&amp;quot;, &amp;quot;T&amp;quot;) ? &amp;quot;Off&amp;quot; : &amp;quot;On&amp;quot;
+
+也可以进行重复文本的替换
+::/dl::欢迎关注法律之端！
+::/mail::duanlaw@gmail.com
+
+注意：中文模式下输入、号同样能够进行替换。
+
+iSlide
+
+软件性质：免费
+
+iSlide 是一款ppt插件，提供了丰富的图表、图标，还有一些特殊的功能，比如批量修改文字等等。
+
+Gesturesign
+
+软件性质：免费
+
+GestureSign 是一款开源的 Windows 手势控制软件，支持 Windows 8.1、Windows 10 的 64/32 位电脑。可用触摸屏、触控板、触控笔和鼠标划出手势，方便地执行一些命令，如执行快捷键、发送文本命令、运行程序等等。
+
+Imagine
+
+软件性质：免费
+
+伴随着手机像素的提高，随便拍张照片都将近10几兆的大小，因为电脑自带的存储空间是128G的，为了节省空间，我都会对图片进行压缩处理。使用的图片压缩工具是Imagine。
+
+支持 PNG 和 JPG
+能实时观察优化结果
+批量处理文件和保存
+
+以 unsplash 下载的高清图片演示如下：
+
+Coldturkey
+
+软件性质：免费、增值收费
+
+Coldturkey 是一款全平台的网络管理工具，他可以做到禁止您某一时间访问某一网站（淘宝、知乎、京东等等），只有等您过了设置的时间之后才会正常访问。软件安装后需要在各浏览器上安装相应的插件。当笔者将知乎加入黑名单后，访问知乎就会显示下图的界面。
+
+Rescuetime
+
+软件性质：免费、增值收费
+
+Rescuetime 是一款时间记录软件，能够记录您在某段时间内访问了哪些网站、使用了哪些应用，在相应的平台停留的时间。不仅如此，该软件将时间的记录以可视化图表的方式进行呈现，让您知道时间都去哪了，控制您的时间成本。当我们想要了解每一项的具体花费时，点开柱状图中的圆柱，就可以看到访问网站 / 软件的时间，及所花费的时间。
+
+Neat Reader
+
+软件性质：收费
+
+平时偶尔会拿手机看下电子书，因此需要一款跨平台的电子书阅读工具。最终选择了neatreader，在文件浏览还有标记上都可以做到实时同步。
+
+Total uninstall
+
+软件性质：收费
+
+total uninstall可以监控程序的安装移除多余的文件和注册表项目。
+
+Newsflow
+
+软件性质：免费
+
+Rss 是一个信息聚合的工具，它的目的是将新闻标题，新闻标题、摘要（Feed）、内容按照用户的要求送达给用户。你每天打开rss工具就可以访问平时浏览的网站。但是Rss本身就是一款小众的产品。之所以使用rss，是因为信息太多了，而且很多的信息对我们来说都是无意义的。逐渐感觉自己被信息所吞没。
+
+
+Latermark for Pocket
+
+软件性质：免费（有广告）
+
+Latermark for Pocket 是windows 系统下的一款第三方阅读工具，对于有些需要深读的文章，笔者都会暂存在pocket上面进行二次阅读。虽然有广告，但可以通过付款的方式移除。
+
+
+SmartTaskbar
+SmartTaskbar是一款当窗口最大化的时候可以自动隐藏任务栏的小软件，增大可视面积，在阅读文献和浏览网页的时候非常有用。来源：SmartTaskbar作者
+
+其它
+在软件使用上我一般遵循无广告、无捆绑安装等基本的要求，所以数字公司、腾讯等国内免费的安全软件基本不属于我的考虑范围。因为免费的永远都是最贵的。但是安全软件我还是使用了火绒，主要是使用文件粉碎还有垃圾清理功能。当然你可以使用微软自带的windows defender作为杀毒软件。清理工具建议使用Dism++，压缩工具建议使用bandzip。
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://wumingqiude.github.io//post/windows_001">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+                <!-- 翻页 -->
+                
+                </div>
+                <!--  -->
+                <div class="main-container-middle"></div>
+                <!--  -->
+                <div id="sidebar" class="main-container-right">
+
+                    <!-- 个人信息 -->
+                    
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://wumingqiude.github.io//images/avatar.png?v=1565184380342)">
+        </div>
+        <h1 class="id_card-title">
+            无名的裘德
+        </h1>
+        <h2 class="id_card-description">
+            
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
+    </div>
+    
+
+                        <!-- 公告栏 -->
+                        
+
+                </div>
+            </div>
+
+
+
+            <div class="site-footer">
   Powered by <a href="http://hvenotes.fehey.com/" target="_blank">Gridea</a> | 
   <a class="rss" href="https://wumingqiude.github.io//atom.xml" target="_blank">RSS</a>
 </div>
 
 <script>
   hljs.initHighlightingOnLoad()
-
-  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
-
-  // This should probably be throttled.
-  // Especially because it triggers during smooth scrolling.
-  // https://lodash.com/docs/4.17.10#throttle
-  // You could do like...
-  // window.addEventListener("scroll", () => {
-  //    _.throttle(doThatStuff, 100);
-  // });
-  // Only not doing it here to keep this Pen dependency-free.
-
-  window.addEventListener("scroll", event => {
-    let fromTop = window.scrollY;
-
-    mainNavLinks.forEach((link, index) => {
-      let section = document.getElementById(decodeURI(link.hash).substring(1));
-      let nextSection = null
-      if (mainNavLinks[index + 1]) {
-        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-      }
-      console.log('section.offsetHeight', section.offsetHeight);
-      if (section.offsetTop <= fromTop) {
-        if (nextSection) {
-          if (nextSection.offsetTop > fromTop) {
-            link.classList.add("current");
-          } else {
-            link.classList.remove("current");    
-          }
-        } else {
-          link.classList.add("current");
-        }
-      } else {
-        link.classList.remove("current");
-      }
-    });
-  });
-
 </script>
 
-      </div>
     </div>
-  </body>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+</body>
+
 </html>
