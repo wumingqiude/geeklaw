@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://wumingqiude.github.io/</id>
+    <id>https://wumingqiude.github.io/</id>
     <title>无名的裘德</title>
-    <updated>2019-08-07T13:13:15.958Z</updated>
+    <updated>2019-08-07T13:18:05.928Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://wumingqiude.github.io/"/>
-    <link rel="self" href="http://wumingqiude.github.io//atom.xml"/>
-    <logo>http://wumingqiude.github.io//images/avatar.png</logo>
-    <icon>http://wumingqiude.github.io//favicon.ico</icon>
+    <link rel="alternate" href="https://wumingqiude.github.io/"/>
+    <link rel="self" href="https://wumingqiude.github.io//atom.xml"/>
+    <logo>https://wumingqiude.github.io//images/avatar.png</logo>
+    <icon>https://wumingqiude.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, 无名的裘德</rights>
     <entry>
         <title type="html"><![CDATA[Awesome-Windows-丨详细篇]]></title>
-        <id>http://wumingqiude.github.io//post/windows_001</id>
-        <link href="http://wumingqiude.github.io//post/windows_001">
+        <id>https://wumingqiude.github.io//post/windows_001</id>
+        <link href="https://wumingqiude.github.io//post/windows_001">
         </link>
         <updated>2019-08-07T08:57:23.000Z</updated>
         <content type="html"><![CDATA[<p>本文写给使用Windows系统的律师，不足之处欢迎大家补充，有部分软件比如Workflowy、OneNote、Quicker等我会今后写一篇文章进行介绍。有时间在聊聊Mac。利用业余时间，断断续续写了两个星期，就没有单独整理各个软件的下载地址，大家依据软件名称自行搜索下即可。<br>
@@ -282,8 +282,8 @@ LAlt &amp; Capslock::SetCapsLockState, % GetKeyState(&quot;CapsLock&quot;, &quot
     </entry>
     <entry>
         <title type="html"><![CDATA[Ted 丨死刑辩护教我的事情]]></title>
-        <id>http://wumingqiude.github.io//post/ted_lawyer_01</id>
-        <link href="http://wumingqiude.github.io//post/ted_lawyer_01">
+        <id>https://wumingqiude.github.io//post/ted_lawyer_01</id>
+        <link href="https://wumingqiude.github.io//post/ted_lawyer_01">
         </link>
         <updated>2019-08-07T06:02:01.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
